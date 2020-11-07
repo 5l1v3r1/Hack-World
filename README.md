@@ -53,17 +53,11 @@ like
 
 ## Installation On Termux
 ```
-apt update
-apt upgrade
-pkg install python
-pkg install python2
-pkg install git
-pip2 install requests
-pip2 install mechanize
-git clone https://github.com/evildevill/Hack-World.git
-cd Hack-World
-chmod +x *
-python2 Hack-World.py
+pkg install wget -y
+```
+
+```
+wget https://github.com/evildevill/Homo-Attack/raw/master/setup.sh
 ```
 ## Metasploit Commands
 》》Requirements:-
